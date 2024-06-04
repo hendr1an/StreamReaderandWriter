@@ -34,7 +34,7 @@ int main() {
 
     ifstream infile;
 
-    infile.open("contohfile.txt");
+    infile.open(NamaFile + ".txt", ios::in);
 
     cout << endl << ">= Membuka dan membaca file " << endl;
 
